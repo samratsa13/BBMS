@@ -1,0 +1,360 @@
+
+/* Reset any padding or margin inherited from parent elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-image: url('backk.jpg');
+    background-size: cover;  /* Ensure the image covers the entire screen */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+
+header nav {
+    background: white;
+    height: 90px;
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 0 10px 12px 2px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    
+}
+
+nav h2 {
+    margin-top: -115px;
+    margin-left: 120px;
+}
+
+nav h4 {
+    font-size: 17px;
+    float: right;
+    margin-right: -580px;
+    color: black;
+    margin-top: -27px;
+}
+
+nav .img_a {
+    padding: 0;
+    display: flex;
+}
+
+nav a i {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    float: right;
+    margin-top: -35px;
+    margin-right: -650px;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+    margin-top: -15px;
+    margin-left: 1px;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    border: 0;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.container {
+    margin-top: -5px;
+    min-height: 100vh;
+    align-items: center;
+    padding: 100px;
+}
+
+span {
+    color: crimson;
+}
+
+nav a i:hover {
+    color: red;
+}
+
+.update {
+    float: right;
+    margin-top: 100px;
+    margin-left: 900px;
+    padding: 20px;
+    position: relative;
+}
+.update h3{
+    margin-top: 117px;
+}
+.update button {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(190, 0, 0);
+    border: 1px solid rgb(190, 0, 0); 
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-right: 90px;
+    
+}
+
+.update button:hover {
+    background-color: rgb(128, 52, 52);
+    border: 1px solid rgb(128, 52, 52);
+    
+}
+form {
+    margin-top: 1px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 10px 12px 2px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    position: absolute;
+    width: 225px;
+    z-index: 100;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555; /* Label text color */
+}
+
+form select,
+form input[type="number"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form select:hover,
+form input[type="number"]:hover,
+form input[type="submit"]:hover {
+    border-color: #aaa;
+}
+
+form input[type="submit"] {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid crimson;
+}
+
+form input[type="submit"]:hover {
+    background-color: crimson;
+    color: white;
+}
+
+form select {
+    background-color: #fff;
+    color: #555;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+form select:focus,
+form input[type="number"]:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+
+.container .bloods .Apos{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .Apos h1{
+    color: crimson;
+}
+
+.container .bloods .Apos h2{
+    font-size: 25px;
+} 
+
+
+.container .bloods .Aneg{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .Aneg h1{
+    color: crimson;
+}
+
+.container .bloods .Aneg h2{
+    font-size: 25px;
+} 
+
+
+.container .bloods .Bpos{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .Bpos h1{
+    color: crimson;
+}
+
+.container .bloods .Bpos h2{
+    font-size: 25px;
+} 
+
+.container .bloods .Bneg{
+    display: block;
+    padding:55px;
+    float: left;
+    margin:70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .Bneg h1{
+    color: crimson;
+}
+
+.container .bloods .Bneg h2{
+    font-size: 25px;
+} 
+
+
+.container .bloods .ABpos{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .ABpos h1{
+    color: crimson;
+}
+
+.container .bloods .ABpos h2{
+    font-size: 25px;
+} 
+
+
+.container .bloods .ABneg{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .ABneg h1{
+    color: crimson;
+}
+
+.container .bloods .ABneg h2{
+    font-size: 25px;
+} 
+
+
+
+.container .bloods .Opos{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .Opos h1{
+    color: crimson;
+}
+
+.container .bloods .Opos h2{
+    font-size: 25px;
+} 
+
+.container .bloods .Oneg{
+    display: block;
+    padding:55px;
+    float: left;
+    margin: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow:  0 10px 12px 2px rgb(203, 77, 77);
+    border-radius: 15%;
+    background-color: white;
+}
+.container .bloods .Oneg h1{
+    color: crimson;
+}
+
+.container .bloods .Oneg h2{
+    font-size: 25px;
+} 
+

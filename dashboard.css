@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    padding-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#First {
+    height: 100vh;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    
+}
+header nav {
+    background: white;
+    height: 90px;
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 0 10px 12px 2px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    
+}
+
+
+label.logo img {
+    height: 160px;
+    width: 160px;
+    padding: -10px;
+    margin-top: -15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.img img {
+    height: 550px;
+    display: block;
+    float: right;
+    margin-top: -300px;
+    margin-right: 28px;
+
+}
+
+.img h1 {
+    font-size: 80px;
+    margin: 30px;
+    margin-left: 100px;
+
+}
+
+.img h1 span {
+    font-size: 100px;
+    color: crimson;
+
+
+}
+
+.img h2 {
+    margin: 50px;
+    font-size: 80px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+.link {
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.link .btn1 {
+    text-decoration: none;
+    border: 1px solid crimson;
+    background-color: crimson;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 23px;
+}
+.link .btn1:hover{
+    color: black;
+    transition: 0.9s;
+}
+
+.link2 {
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.link2 a {
+
+    text-decoration: none;
+    border: none;
+    background-color: none;
+    padding: 10px;
+    color: black;
+    width: 200px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.link2 a:hover {
+    text-decoration: underline;
+
+}
+
+/* SECTION About us */
+#About{
+    height: 100vh;
+}
+.intro {
+    text-align: left;
+    background-color: lightgrey;
+  width: 400px;
+  border: 1px solid lightgray;
+  padding: 50px;
+  margin-bottom: -20px;
+  height: 450px;
+  font-size: 22px;
+  
+  margin-left: 100px;
+  box-shadow: 0 10px 12px 2px rgba(0, 0, 0, 0.2);
+}
+.intro:hover{
+    background-color: rgb(172, 167, 167);
+    border: 1px solid rgb(172, 167, 167);
+    box-shadow: 0 10px 12px 2px rgba(72, 71, 71, 0.568);
+    transition: 0.5s;
+}
+.key1 {
+    text-align: left;
+    background-color: rgba(179, 60, 60, 0.925);
+  width: 450px;
+  border: 1px solid rgba(179, 60, 60, 0.925);
+  padding: 50px;
+  margin-top: -520px;
+  height: 220px;
+  font-size: 18px;
+  border-radius: 40%;
+  margin-right: 100px;
+  box-shadow: 0 10px 12px 2px rgba(179, 60, 60, 0.568);
+  position: relative;
+  float: right;
+  transform: rotate(355deg);
+}
+.key1:hover{
+    color: rgb(204, 201, 201);
+    background-color: rgb(195,22,22);
+    box-shadow: 0 10px 12px 2px rgba(195, 22, 22, 0.568);
+    transition: 0.5s;
+}
+.key2 {
+    text-align: left;
+    background-color: rgb(30, 122, 176);
+  width: 450px;
+  border: 1px solid rgb(30, 122, 176);
+  padding: 50px;
+  margin-top: -320px;
+  height: 220px;
+  font-size: 18px;
+  border-radius: 40%;
+  margin-right: 100px;
+  box-shadow: 0 10px 12px 2px rgba(30, 122, 176, 0.342);
+  display: block;
+  float: right;
+  transform: rotate(5deg);
+}
+.key2:hover{
+    color: rgb(204, 201, 201);
+    background-color: rgb(48, 48, 221); 
+    box-shadow: 0 10px 12px 2px rgba(48, 48, 221,0.568 );  ;
+    transition: 0.5s;
+}
+.key3 {
+    text-align: left;
+    background-color: rgba(179, 60, 60, 0.925);
+  width: 450px;
+  border: 1px solid rgb(179, 60, 60, 0.925);
+  padding: 45px 42px;
+  margin-top: -125px;
+  height: 22    0px;
+  font-size: 18px;
+  border-radius: 40%;
+  margin-right: 100px;
+  box-shadow: 0 10px 12px 2px rgba(179, 60, 60, 0.568);
+  display: block;
+  float: right;
+  transform: rotate(357deg);
+}
+.key3:hover{
+    color: rgb(204, 201, 201);
+    background-color: rgb(195,22,22);
+    box-shadow: 0 10px 12px 2px rgba(195, 22, 22, 0.568);
+    transition: 0.5s;
+}
+
+/* SECTION 3 STARTS */
+#third {
+    height: 80vh;
+    background-color: rgb(157, 31, 31);
+    color: white;
+}
+
+.head h1 {
+    text-align: center;
+
+}
+
+table {
+    text-align: center;
+    margin: 12px 20px;
+    width: 800px;
+    height: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 300px;
+    margin-right: auto;
+    font-size: 20px;
+    padding: 2px;
+}
+
+th {
+    width: 300px;
+    color: wheat;
+}
+
+/*Contact*/
+
+#Contact {
+    height:68vh;
+    background-color: black;
+    color: white;
+}
+.con h1{
+    margin-left: 80px;
+    padding: 40px;
+    font-size: 35px;
+}
+.log img{
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+}
+.log h1{
+    font-size: 30px;
+    margin-top: -143px;
+    margin-left: 180px;
+}
+.chitwan{
+    text-align: left;
+    margin-left: 30%;
+    margin-top: -35px;
+    
+}
+.chitwan h2{
+    text-decoration: underline;
+    color: grey;
+    padding: 2px;
+}
+.chitwan ul li{
+    padding: 3px;
+}
+.ktm{
+    text-align: left;
+    margin-left: 65%;
+    margin-top: -200px;
+    
+}
+.ktm h2{
+    text-decoration: underline;
+    color: grey;
+    padding: 2px;
+}
+.ktm ul li{
+    padding: 3px;
+}
+.web{
+    margin-top: 10px;
+}
+.web a{
+    text-decoration: none;
+    background-color: none;
+    color: white;
+   
+}
+.web a i{
+   font-size: 35px;
+   margin-top: 45px;
+   margin-left: 45%;
+   
+}
+.web a i:hover{
+    color: gray ;
+}
+.web h3{
+    margin-top: -30px;
+    margin-left: 48%;
+}
